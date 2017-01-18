@@ -1,0 +1,39 @@
+.bg-1 { 
+    background-color: #750303; /* Maroon */
+    color: #ffffff;
+    padding-top: 100px !important;
+}
+
+.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+.bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    opacity: .7;
+}
+
+.navbar-nav li a:hover {
+    color: black !important;
+}
