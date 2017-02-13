@@ -1,7 +1,10 @@
 .bg-1 { 
-    background-color: #750303; /* Maroon */
+	background-color: #08003D;
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
     color: #ffffff;
-    padding-top: 100px !important;
+    height: 628px;
 }
 
 .bg-2 { 
@@ -36,4 +39,50 @@
 
 .navbar-nav li a:hover {
     color: black !important;
+}
+
+.container {
+    position: relative;
+}
+
+.photos-heads img {
+    width: 400px;
+    height: 400px;
+    display: block;
+}
+
+.photos-committee img {
+    width: 300px;
+    height: 300px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    color: red;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container:hover img {
+    opacity: .3;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
