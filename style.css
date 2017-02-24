@@ -1,3 +1,7 @@
+body {
+    font-family: 'Arvo', serif;
+}
+
 .bg-1 { 
 	background-color: #08003D;
     background-image: url("banner.jpg");
@@ -25,6 +29,16 @@
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+.container-fluid p {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-fluid ul{
+    text-align: left;
 }
 
 .navbar {
