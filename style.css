@@ -4,7 +4,7 @@ body {
 
 .bg-1 { 
 	background-color: #08003D;
-    background-image: url("banner.jpg");
+    background-image: url("banner.png");
     background-repeat: no-repeat;
     background-position: center top;
     color: #ffffff;
@@ -38,6 +38,10 @@ body {
 }
 
 .container-fluid ul{
+    text-align: left;
+}
+
+.container-fluid ol{
     text-align: left;
 }
 
@@ -99,4 +103,18 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
