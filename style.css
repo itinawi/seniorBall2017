@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: kingBasil;
+    src: url("King Basil Lite.otf");
+}
+
 body {
     font-family: 'Arvo', serif;
 }
@@ -6,26 +12,54 @@ b {
     font-weight: 1200;
 }
 
-.bg-1 { 
+.h3 {
+font-family: Lato;
+}
+
+.row {
+  word-wrap: break-word;
+}
+
+#title {
+  font-family: kingBasil;
+  font-size: 7vw;
+  padding-top: 60px;
+}
+
+#senior {
+  font-family: Lato;
+  font-size: 3vw;
+  font-weight: 300;
+  padding-top: 30px;
+}
+
+#date {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 2vw;
+}
+
+.bg-1 {
 	background-color: #2f2f2f;
-    background-image: url("banner.jpg");
+    background-image: url("background.png");
     background-repeat: no-repeat;
     background-position: center bottom;
+    background-size: cover;
     color: #ffffff;
     height: 670px;
 }
 
-.bg-2 { 
+.bg-2 {
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
 }
 
-.bg-3 { 
+.bg-3 {
     background-color: #ffffff; /* White */
     color: #555555;
 }
 
-.bg-4 { 
+.bg-4 {
     background-color: #2f2f2f;
     color: #ffffff;
 }
@@ -50,6 +84,8 @@ b {
 }
 
 .navbar {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
     padding-top: 10px;
     padding-bottom: 10px;
     border: 0;
