@@ -2,13 +2,17 @@ body {
     font-family: 'Arvo', serif;
 }
 
+b {
+    font-weight: 1200;
+}
+
 .bg-1 { 
-	background-color: #08003D;
-    background-image: url("banner.png");
+	background-color: #2f2f2f;
+    background-image: url("banner.jpg");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
     color: #ffffff;
-    height: 628px;
+    height: 670px;
 }
 
 .bg-2 { 
