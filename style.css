@@ -40,10 +40,10 @@ font-family: Lato;
 }
 
 .bg-1 {
-	background-color: #2f2f2f;
-    background-image: url("background.png");
+	  background-color: #2f2f2f;
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
     background-size: cover;
     color: #ffffff;
     height: auto;
